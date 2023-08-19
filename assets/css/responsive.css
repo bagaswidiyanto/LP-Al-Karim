@@ -1,0 +1,132 @@
+/********** Template CSS **********/
+:root {
+    --primary: #7F9F23;
+    /* --secondary: #FFC700; */
+    --light: #ffffff;
+    --dark: #000000;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px)  {
+    .hero-header .btn-click a {
+        padding: 1rem 1.4rem;
+        font-size: 16px;
+    }
+
+    .modal .modal-header h4 { 
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .donasi .chart-target-donasi .chart-progress .collected-funds h5 {
+        font-size: 1.25rem;
+    }
+    
+    .donasi .chart-target-donasi .chart-progress .collected-funds small {
+        font-size: .6rem;
+    }
+    
+    .donasi .chart-target-donasi .chart-progress .target h5 {
+        font-size: 1.25rem;
+    }
+
+    .donasi .chart-target-donasi .chart-progress .tot-donasi p {
+        font-size: .8rem;
+    }
+
+    #time {
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (min-width: 992px)  {
+    .navbar-light .navbar-nav .nav-link + .nav-link {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px)  {
+    .navbar-light .navbar-nav .nav-link + .nav-link {
+        margin-left: 5rem;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .donation-report .img .img-big {
+        max-height: 300px;
+    }
+
+    .donation-report .img .img-medium {
+        max-height: 210px;
+        transform: translate(26%, 170%);
+    }
+
+    .donation-report .img .img-small {
+        max-height: 190px;
+        transform: translate(0%, 140%);
+    }
+}
+
+@media only screen and (max-width: 668px)  {
+    .donatur .swiper-button-prev {
+        left: -20px;
+        background-size: 8px;
+        width: 30px;
+        height: 30px;
+    }
+    .donatur .swiper-button-next {
+        right: -20px;
+        background-size: 8px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer iframe {
+        height: 350px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1090px) {
+    .donatur .swiper-button-prev {
+        left: -20px;
+    }
+    .donatur .swiper-button-next {
+        right: -20px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 840px) {
+    .donatur .swiper-button-prev {
+        left: -20px;
+    }
+    .donatur .swiper-button-next {
+        right: -20px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .donation-report .img .img-big {
+        max-height: 285px;
+    }
+
+    .donation-report .img .img-medium {
+        max-height: 180px;
+    }
+
+    .donation-report .img .img-small {
+        max-height: 170px;
+    }
+}
+
+
+
+
